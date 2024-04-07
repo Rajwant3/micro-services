@@ -59,13 +59,13 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-				<!-- Open Telemetry - Simplified Observability (metrics, logs, and traces) -->
+		<!-- Open Telemetry - Simplified Observability (metrics, logs, and traces) -->
 
 		<dependency>
 			<groupId>io.micrometer</groupId>
 			<artifactId>micrometer-tracing-bridge-otel</artifactId>
 		</dependency>
-	
+
 
 		<dependency>
 			<groupId>io.micrometer</groupId>
@@ -85,6 +85,34 @@
 			<groupId>io.github.resilience4j</groupId>
 			<artifactId>resilience4j-spring-boot2</artifactId>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.camel.springboot/camel-spring-boot-starter -->
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-spring-boot-starter</artifactId>
+			<version>4.5.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.camel.springboot/camel-http-starter -->
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-http-starter</artifactId>
+			<version>4.5.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-servlet -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-servlet</artifactId>
+			<version>4.5.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-openapi-java -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-openapi-java</artifactId>
+			<version>4.5.0</version>
+		</dependency>
+
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
@@ -110,7 +138,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-							
+
 					<image>
 						<name>
 				rajwant3/udemy-${project.artifactId}:${project.version}
