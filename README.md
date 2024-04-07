@@ -41,7 +41,7 @@ Before running the microservices, ensure the following dependencies are installe
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/Rajwant3/micro-services.git
     ```
 
 2. Navigate to the project directory:
