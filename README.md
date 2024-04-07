@@ -6,13 +6,13 @@ This repository hosts a collection of seven small microservices built using Spri
 
 ## Microservices
 
-1. **Service 1**: Description of service 1.
-2. **Service 2**: Description of service 2.
-3. **Service 3**: Description of service 3.
-4. **Service 4**: Description of service 4.
-5. **Service 5**: Description of service 5.
-6. **Service 6**: Description of service 6.
-7. **Service 7**: Description of service 7.
+1. **Limit Service**
+2. **Api gateways**
+3. **Currency Exchange Service**
+4. **Currency Conversion Service**
+5. **Eureka Naming Server**
+6. **Spring Cloud Config Server**
+7. **Restful services**
    
 - ## Technologies Used
 
